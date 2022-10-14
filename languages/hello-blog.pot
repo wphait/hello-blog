@@ -1,0 +1,510 @@
+# <!=Copyright (C) 2022 WP Hait
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Hello Blog 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hello-blog\n"
+"POT-Creation-Date: 2022-10-14 05:45:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.6\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:33
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/customizer.php:63
+msgid "Hello Blog Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:66 inc/welcome/welcome.php:311
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:19
+msgid "Blog Detail (Single Post)"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:38 inc/customizer/options/blog.php:38
+msgid "Post Meta"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:43
+#: inc/customizer/options/blog-single.php:71 inc/customizer/options/blog.php:43
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:44
+#: inc/customizer/options/blog-single.php:72 inc/customizer/options/blog.php:44
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:45
+#: inc/customizer/options/blog-single.php:73 inc/customizer/options/blog.php:45
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:46
+#: inc/customizer/options/blog-single.php:74
+msgid "Comments"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:47
+#: inc/customizer/options/blog-single.php:75
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:66
+msgid "Post Footer Meta"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:94
+msgid "Enable Social Share"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:115
+#: inc/customizer/options/blog-single.php:165
+msgid "Heading"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:145
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/customizer/options/blog-single.php:195
+msgid "Number of Related Posts"
+msgstr ""
+
+#: inc/customizer/options/blog.php:19
+msgid "Blog/Archive"
+msgstr ""
+
+#: inc/customizer/options/blog.php:64
+msgid "Show Excerpt"
+msgstr ""
+
+#: inc/customizer/options/blog.php:84
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/options/blog.php:119
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/options/breadcrumb.php:17
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/options/breadcrumb.php:36
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/options/breadcrumb.php:56
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: inc/customizer/options/breadcrumb.php:60
+msgid "Rank Math"
+msgstr ""
+
+#: inc/customizer/options/breadcrumb.php:61
+msgid "Yoast SEO"
+msgstr ""
+
+#: inc/customizer/options/footer.php:16
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/options/footer.php:35
+msgid "Enable Social Links"
+msgstr ""
+
+#: inc/customizer/options/footer.php:36
+msgid "Social menu should be set to display social links."
+msgstr ""
+
+#: inc/customizer/options/footer.php:56
+msgid "Enable Back to Top"
+msgstr ""
+
+#: inc/customizer/options/footer.php:76
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/options/header.php:25
+msgid "Height of Logo (in px)"
+msgstr ""
+
+#: inc/customizer/options/header.php:57
+msgid "Hide Site Title"
+msgstr ""
+
+#: inc/customizer/options/header.php:77
+msgid "Hide Tagline"
+msgstr ""
+
+#: inc/customizer/options/options.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/options/shop-single.php:15
+msgid "Shop Single (Product Detail)"
+msgstr ""
+
+#: inc/customizer/options/shop-single.php:34
+msgid "Enable Image Zoom"
+msgstr ""
+
+#: inc/customizer/options/shop-single.php:54
+msgid "Disable Related Products"
+msgstr ""
+
+#: inc/customizer/options/shop.php:18
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/options/shop.php:37
+msgid "Shop Layout"
+msgstr ""
+
+#: inc/customizer/options/shop.php:41 inc/hooks/setup.php:108
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/options/shop.php:42
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/options/shop.php:61
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/customizer/options/shop.php:62
+msgid "Total number of products shown per page"
+msgstr ""
+
+#: inc/customizer/options/shop.php:87
+msgid "Products Per Row"
+msgstr ""
+
+#: inc/customizer/options/shop.php:88
+msgid "Number of products shown per row"
+msgstr ""
+
+#: inc/customizer/options/shop.php:114
+msgid "Disable Product Sorting Option"
+msgstr ""
+
+#: inc/helpers/common.php:211
+msgid "Home"
+msgstr ""
+
+#: inc/helpers/core.php:95
+msgid "Read More"
+msgstr ""
+
+#: inc/helpers/core.php:103
+msgid "Related Posts"
+msgstr ""
+
+#: inc/helpers/core.php:106
+msgid "Share this article:"
+msgstr ""
+
+#: inc/helpers/core.php:119
+msgid "Copyright &copy; [the-year] [the-site-title]. All Rights Reserved."
+msgstr ""
+
+#: inc/helpers/template-tags.php:131
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/helpers/template-tags.php:155
+#: template-parts/content-page-no-title.php:31
+#: template-parts/content-page.php:37
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hello Blog"
+msgstr ""
+
+#: inc/hooks/layout.php:163
+#. translators: 1: Theme name, 2: Theme author.
+msgid " Theme: %1$s by %2$s"
+msgstr ""
+
+#: inc/hooks/setup.php:27
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:28
+msgid "Social Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:29
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/hooks/setup.php:110
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/hooks/setup.php:122
+#. translators: %d: Widget number.
+msgid "Footer %d"
+msgstr ""
+
+#: inc/welcome/welcome.php:20
+#. translators: %s: theme name.
+msgid "About %s"
+msgstr ""
+
+#: inc/welcome/welcome.php:31
+msgid "View Demos"
+msgstr ""
+
+#: inc/welcome/welcome.php:36
+msgid "Theme Homepage"
+msgstr ""
+
+#: inc/welcome/welcome.php:48
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome/welcome.php:52
+msgid "Customize Everything"
+msgstr ""
+
+#: inc/welcome/welcome.php:54
+msgid ""
+"Theme uses Customizer API for theme options. Start customizing every aspect "
+"of the website with customizer."
+msgstr ""
+
+#: inc/welcome/welcome.php:55
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/welcome/welcome.php:60
+msgid "Get Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:62
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Please visit "
+"support forum in the WordPress.org directory."
+msgstr ""
+
+#: inc/welcome/welcome.php:63
+msgid "Visit Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:69
+msgid "Documentation"
+msgstr ""
+
+#: inc/welcome/welcome.php:72
+msgid "View Documentation"
+msgstr ""
+
+#: inc/welcome/welcome.php:78
+msgid "Child Theme"
+msgstr ""
+
+#: inc/welcome/welcome.php:81
+msgid "About Child Theme"
+msgstr ""
+
+#: inc/welcome/welcome.php:228
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/welcome/welcome.php:232
+msgid "WooCommerce Product Tabs"
+msgstr ""
+
+#: inc/welcome/welcome.php:233
+msgid "Plugin to add new tabs for WooCommerce products."
+msgstr ""
+
+#: inc/welcome/welcome.php:237
+msgid "Admin Customizer"
+msgstr ""
+
+#: inc/welcome/welcome.php:238
+msgid "Customize admin interface of your WordPress site."
+msgstr ""
+
+#: inc/welcome/welcome.php:242
+msgid "Advanced Google reCAPTCHA"
+msgstr ""
+
+#: inc/welcome/welcome.php:243
+msgid ""
+"Protect your WordPress website against spam comments and brute-force "
+"attacks using Google reCAPTCHA."
+msgstr ""
+
+#: inc/welcome/welcome.php:247
+msgid "Coming Soon & Maintenance Mode Page"
+msgstr ""
+
+#: inc/welcome/welcome.php:248
+msgid ""
+"Simple and easy to setup Coming soon, Under Construction and Maintenance "
+"page plugin."
+msgstr ""
+
+#: inc/welcome/welcome.php:252
+msgid "Post Grid Elementor Addon"
+msgstr ""
+
+#: inc/welcome/welcome.php:253
+msgid "Elementor page builder addon to display posts in a grid."
+msgstr ""
+
+#: inc/welcome/welcome.php:257
+msgid "Majestic Before After Image"
+msgstr ""
+
+#: inc/welcome/welcome.php:258
+msgid ""
+"Elementor addon to show the comparison of two images with a draggable "
+"handle."
+msgstr ""
+
+#: inc/welcome/welcome.php:312
+msgid "Upgrade to pro version for additional features and options."
+msgstr ""
+
+#: inc/welcome/welcome.php:314
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/welcome/welcome.php:323
+msgid "Leave a Review"
+msgstr ""
+
+#: inc/welcome/welcome.php:325
+#. translators: %s: theme name.
+msgid "Are you enjoying %s? We would appreciate a review."
+msgstr ""
+
+#: inc/welcome/welcome.php:326
+msgid "Submit Review"
+msgstr ""
+
+#: inc/welcome/welcome.php:335
+msgid "Our Themes"
+msgstr ""
+
+#: search.php:21
+#. translators: %s: search query.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page-no-title.php:17
+#: template-parts/content-page.php:23 template-parts/content.php:61
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:48
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wphait.com/themes/hello-blog/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hello Blog is a feminine WordPress blog theme for bloggers, coaches, "
+"individuals and creative writers. This Google Core Web Vitals optimized "
+"WordPress blog theme is perfect for those users who focus on the speed of "
+"their website. Hello Blog comes with easy to use inbuilt customizer, "
+"full-width banner, featured posts, social share and lots of other features "
+"needed for a perfect blog."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Hait"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wphait.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Title & Spaces"
+msgstr ""
+
+#: comments.php:39
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/helpers/common.php:194
+msgctxt "year date format"
+msgid "Y"
+msgstr ""
+
+#: inc/helpers/template-tags.php:98 inc/helpers/template-tags.php:112
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
