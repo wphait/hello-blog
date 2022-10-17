@@ -17,6 +17,7 @@ $wp_customize->add_panel(
 );
 
 require_once HELLO_BLOG_DIR . '/inc/customizer/options/header.php';
+require_once HELLO_BLOG_DIR . '/inc/customizer/options/featured-posts.php';
 require_once HELLO_BLOG_DIR . '/inc/customizer/options/breadcrumb.php';
 require_once HELLO_BLOG_DIR . '/inc/customizer/options/blog.php';
 require_once HELLO_BLOG_DIR . '/inc/customizer/options/blog-single.php';

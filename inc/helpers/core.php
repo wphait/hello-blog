@@ -81,8 +81,9 @@ function hello_blog_get_default_theme_options() {
 	$defaults['hide_site_title'] = false;
 	$defaults['hide_tagline']    = true;
 
-	// General.
-	$defaults['enable_social_links'] = true;
+	// Featured Posts.
+	$defaults['enable_featured_posts']     = false;
+	$defaults['featured_posts_categories'] = array();
 
 	// Breadcrumb.
 	$defaults['enable_breadcrumb'] = false;

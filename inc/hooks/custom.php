@@ -74,3 +74,41 @@ function hello_blog_customize_related_posts_status( $status ) {
 }
 
 add_filter( 'hello_blog_related_posts_status', 'hello_blog_customize_related_posts_status' );
+
+/**
+ * Customize featured posts status.
+ *
+ * @since 1.0.0
+ *
+ * @param bool $status Status.
+ * @return bool Modified status.
+ */
+function hello_blog_customize_featured_posts_status( $status ) {
+	$status = false;
+
+	$enable_featured_posts = hello_blog_get_option( 'enable_featured_posts' );
+
+	if ( true === $enable_featured_posts && is_front_page() && is_home() ) {
+		$status = true;
+	}
+
+	return $status;
+}
+
+add_filter( 'hello_blog_featured_posts_status', 'hello_blog_customize_featured_posts_status' );
+
+/**
+ * Customize featured posts classes.
+ *
+ * @since 1.0.0
+ *
+ * @param array $classes Array of classes.
+ * @return array Modified array of classes.
+ */
+function hello_blog_customize_featured_posts_classes( $classes ) {
+	$classes[] = 'cols-3';
+
+	return $classes;
+}
+
+add_filter( 'hello_blog_featured_posts_classes', 'hello_blog_customize_featured_posts_classes' );
