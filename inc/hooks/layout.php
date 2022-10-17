@@ -32,6 +32,21 @@ function hello_blog_add_breadcrumb() {
 add_action( 'hello_blog_after_header', 'hello_blog_add_breadcrumb' );
 
 /**
+ * Add featured posts.
+ *
+ * @since 1.0.0
+ */
+function hello_blog_add_featured_posts() {
+	if ( true !== apply_filters( 'hello_blog_featured_posts_status', false ) ) {
+		return;
+	}
+
+	get_template_part( 'template-parts/general/featured' );
+}
+
+add_action( 'hello_blog_before_content', 'hello_blog_add_featured_posts' );
+
+/**
  * Add sidebar.
  *
  * @since 1.0.0

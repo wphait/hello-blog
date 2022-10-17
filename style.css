@@ -2233,6 +2233,47 @@ select.orderby::-ms-expand {
 
 
 /*--------------------------------------------------------------
+##  Featured Posts
+--------------------------------------------------------------*/
+.featured-posts .featured-posts-inner {
+	display: grid;
+	gap: 20px;
+}
+.featured-posts.cols-2 .featured-posts-inner {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.featured-posts.cols-3 .featured-posts-inner {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.featured-posts.cols-4 .featured-posts-inner {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.featured-posts .featured-post {
+	position: relative;
+	padding: 150px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.featured-posts .featured-post h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.featured-posts .featured-post h3 a {
+	color: #fff;
+}
+.featured-posts .featured-post .featured-post-overlay {
+height: 100%;
+width: 100%;
+background: rgba(0,0,0,0.3);
+position: absolute;
+top: 0;
+left: 0;
+}
+.featured-posts .featured-post .featured-post-content {
+	z-index: 10;
+}
+/*--------------------------------------------------------------
 ##  Dark Theme
 --------------------------------------------------------------*/
 body.dark-skin,

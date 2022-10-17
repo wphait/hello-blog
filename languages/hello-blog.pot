@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hello Blog 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hello-blog\n"
-"POT-Creation-Date: 2022-10-14 05:45:09+00:00\n"
+"POT-Creation-Date: 2022-10-17 10:21:22+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,6 +134,18 @@ msgstr ""
 msgid "Yoast SEO"
 msgstr ""
 
+#: inc/customizer/options/featured-posts.php:17
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/customizer/options/featured-posts.php:36
+msgid "Enable Featured Posts"
+msgstr ""
+
+#: inc/customizer/options/featured-posts.php:56
+msgid "Select Categories"
+msgstr ""
+
 #: inc/customizer/options/footer.php:16
 msgid "Footer"
 msgstr ""
@@ -222,19 +234,19 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: inc/helpers/core.php:95
+#: inc/helpers/core.php:96 template-parts/general/featured.php:78
 msgid "Read More"
 msgstr ""
 
-#: inc/helpers/core.php:103
+#: inc/helpers/core.php:104
 msgid "Related Posts"
 msgstr ""
 
-#: inc/helpers/core.php:106
+#: inc/helpers/core.php:107
 msgid "Share this article:"
 msgstr ""
 
-#: inc/helpers/core.php:119
+#: inc/helpers/core.php:120
 msgid "Copyright &copy; [the-year] [the-site-title]. All Rights Reserved."
 msgstr ""
 
@@ -254,7 +266,7 @@ msgstr ""
 msgid "Hello Blog"
 msgstr ""
 
-#: inc/hooks/layout.php:163
+#: inc/hooks/layout.php:178
 #. translators: 1: Theme name, 2: Theme author.
 msgid " Theme: %1$s by %2$s"
 msgstr ""
@@ -504,6 +516,7 @@ msgid "Y"
 msgstr ""
 
 #: inc/helpers/template-tags.php:98 inc/helpers/template-tags.php:112
+#: template-parts/general/featured.php:65
 #. translators: used between list items, there is a space after the comma
 msgctxt "list item separator"
 msgid ", "
