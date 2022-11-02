@@ -30,6 +30,8 @@ function hello_blog_body_classes( $classes ) {
 		$classes[] = 'full-width-shop';
 	}
 
+	$classes[] = 'global-layout-list';
+
 	return $classes;
 }
 

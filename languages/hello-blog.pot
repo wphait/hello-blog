@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hello Blog 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hello-blog\n"
-"POT-Creation-Date: 2022-10-17 10:21:22+00:00\n"
+"POT-Creation-Date: 2022-11-02 11:34:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Hello Blog Pro"
 msgstr ""
 
-#: inc/customizer/customizer.php:66 inc/welcome/welcome.php:311
+#: inc/customizer/customizer.php:66
 msgid "Upgrade to Pro"
 msgstr ""
 
@@ -353,87 +353,17 @@ msgstr ""
 msgid "About Child Theme"
 msgstr ""
 
-#: inc/welcome/welcome.php:228
-msgid "Recommended Plugins"
-msgstr ""
-
-#: inc/welcome/welcome.php:232
-msgid "WooCommerce Product Tabs"
-msgstr ""
-
-#: inc/welcome/welcome.php:233
-msgid "Plugin to add new tabs for WooCommerce products."
-msgstr ""
-
-#: inc/welcome/welcome.php:237
-msgid "Admin Customizer"
-msgstr ""
-
-#: inc/welcome/welcome.php:238
-msgid "Customize admin interface of your WordPress site."
-msgstr ""
-
-#: inc/welcome/welcome.php:242
-msgid "Advanced Google reCAPTCHA"
-msgstr ""
-
-#: inc/welcome/welcome.php:243
-msgid ""
-"Protect your WordPress website against spam comments and brute-force "
-"attacks using Google reCAPTCHA."
-msgstr ""
-
-#: inc/welcome/welcome.php:247
-msgid "Coming Soon & Maintenance Mode Page"
-msgstr ""
-
-#: inc/welcome/welcome.php:248
-msgid ""
-"Simple and easy to setup Coming soon, Under Construction and Maintenance "
-"page plugin."
-msgstr ""
-
-#: inc/welcome/welcome.php:252
-msgid "Post Grid Elementor Addon"
-msgstr ""
-
-#: inc/welcome/welcome.php:253
-msgid "Elementor page builder addon to display posts in a grid."
-msgstr ""
-
-#: inc/welcome/welcome.php:257
-msgid "Majestic Before After Image"
-msgstr ""
-
-#: inc/welcome/welcome.php:258
-msgid ""
-"Elementor addon to show the comparison of two images with a draggable "
-"handle."
-msgstr ""
-
-#: inc/welcome/welcome.php:312
-msgid "Upgrade to pro version for additional features and options."
-msgstr ""
-
-#: inc/welcome/welcome.php:314
-msgid "Upgrade Now"
-msgstr ""
-
-#: inc/welcome/welcome.php:323
+#: inc/welcome/welcome.php:137
 msgid "Leave a Review"
 msgstr ""
 
-#: inc/welcome/welcome.php:325
+#: inc/welcome/welcome.php:139
 #. translators: %s: theme name.
 msgid "Are you enjoying %s? We would appreciate a review."
 msgstr ""
 
-#: inc/welcome/welcome.php:326
+#: inc/welcome/welcome.php:140
 msgid "Submit Review"
-msgstr ""
-
-#: inc/welcome/welcome.php:335
-msgid "Our Themes"
 msgstr ""
 
 #: search.php:21
