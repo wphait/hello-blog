@@ -3,9 +3,9 @@ Theme Name: Hello Blog
 Theme URI: https://wphait.com/themes/hello-blog/
 Author: WP Hait
 Author URI: https://wphait.com/
-Description: Hello Blog is a feminine WordPress blog theme for bloggers, coaches, individuals and creative writers. This Google Core Web Vitals optimized WordPress blog theme is perfect for those users who focus on the speed of their website. Hello Blog comes with easy to use inbuilt customizer, full-width banner, featured posts, social share and lots of other features needed for a perfect blog.
+Description: Hello Blog is a speed optimized WordPress blog theme for creative writers, bloggers, motivational speakers, individuals, coaches, and all type of blogs. It is a Google Core Web Vitals optimized WordPress theme perfect for users who focus on the speed of their website. Hello Blog comes with easy to use inbuilt customizer, featured posts, author box, social share and tons of useful features needed for a perfect blog.
 Requires at least: 4.9
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.6
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -1232,6 +1232,10 @@ textarea {
   width: 70%;
 }
 
+.global-layout-list .site-posts-wrap article.post {
+  margin-bottom: 30px;
+}
+
 /*--------------------------------------------------------------
 ##  Blog Layouts
 --------------------------------------------------------------*/
@@ -1529,6 +1533,7 @@ a.btn-more {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 30px;
 }
 
 .nav-links a {
@@ -1944,7 +1949,7 @@ select.orderby::-ms-expand {
 #  Footer CSS
 --------------------------------------------------------------*/
 .footer-widgets {
-  padding: 30px 0 10px 0;
+  padding: 60px 0 30px 0;
   text-align: left;
   border-top: 1px solid #efefef;
 }
