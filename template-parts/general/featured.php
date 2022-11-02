@@ -72,7 +72,7 @@ $attrs = array(
 								?>
 							<?php endif; ?>
 
-							<?php the_title( '<h3 class="featured-post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h3>' ); ?>
+							<?php the_title( '<h2 class="featured-post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' ); ?>
 
 							<?php if ( true === apply_filters( 'hello_blog_featured_posts_read_more_status', true ) ) : ?>
 									<a href="<?php the_permalink(); ?>" class="featured-post-read-more button"><?php esc_html_e( 'Read More', 'hello-blog' ); ?></a>
