@@ -180,7 +180,7 @@ if ( document.body.classList.contains( 'global-layout-masonry' ) || document.bod
 	if ( elem ) {
 		const msnry = new Masonry( elem, {
 			itemSelector: 'article',
-			columnWidth: 50,
+			columnWidth: 'article:nth-child(2)',
 		} );
 
 		imagesLoaded( elem ).on( 'progress', function() {
@@ -189,3 +189,21 @@ if ( document.body.classList.contains( 'global-layout-masonry' ) || document.bod
 		} );
 	}
 }
+
+
+//toggle search form
+const searchIcon = document.querySelector( '.search-icon' );
+const searchForm = document.querySelector( '.search-form-wrap' );
+
+
+searchIcon.addEventListener('click', function(e){
+	e.preventDefault();
+
+	searchIcon.classList.toggle('active');
+	searchForm.classList.toggle('active');
+
+	/*if( searchIcon.classList.contains( 'active' ) ) {
+		searchIcon.classList.toggle
+	}*/
+
+});

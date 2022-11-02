@@ -50,7 +50,7 @@ function hello_blog_setup() {
 		apply_filters(
 			'hello_blog_custom_background_args',
 			array(
-				'default-color' => 'f9f5f0',
+				'default-color' => 'ffffff',
 				'default-image' => '',
 			)
 		)
