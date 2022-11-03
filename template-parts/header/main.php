@@ -16,9 +16,9 @@
 						<?php
 						wp_nav_menu(
 							array(
-								'theme_location' => 'menu-1',
-								'menu_id'        => 'primary-menu',
-								'fallback_cb'    => 'hello_blog_menu_fallback',
+								'theme_location'  => 'menu-1',
+								'menu_id'         => 'primary-menu',
+								'fallback_cb'     => 'hello_blog_menu_fallback',
 								'container_class' => 'main-nav',
 							)
 						);
@@ -27,8 +27,8 @@
 				</div><!-- .main-navigation-left -->
 				<div class="search-wrap">
 					<a href="javascript:void(0);" class="search-icon">
-						<?php echo hello_blog_get_theme_svg('search'); ?>
-						<?php echo hello_blog_get_theme_svg('cross'); ?>
+						<?php echo hello_blog_get_theme_svg( 'search' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						<?php echo hello_blog_get_theme_svg( 'cross' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					</a>
 				</div>
 			</div><!-- .main-navigation-inner -->
@@ -37,7 +37,6 @@
 				<?php get_search_form(); ?>
 		</div>
 	</div><!-- .main-navigation-wrap -->
-
 
 	<div class="site-branding">
 		<div class="container">

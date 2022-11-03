@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Hello Blog 1.0.0\n"
+"Project-Id-Version: Hello Blog 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hello-blog\n"
-"POT-Creation-Date: 2022-11-02 11:34:58+00:00\n"
+"POT-Creation-Date: 2022-11-03 06:26:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Hello Blog Pro"
 msgstr ""
 
-#: inc/customizer/customizer.php:66
+#: inc/customizer/customizer.php:66 inc/welcome/welcome.php:137
 msgid "Upgrade to Pro"
 msgstr ""
 
@@ -353,17 +353,29 @@ msgstr ""
 msgid "About Child Theme"
 msgstr ""
 
-#: inc/welcome/welcome.php:137
+#: inc/welcome/welcome.php:138
+msgid "Upgrade to pro version for additional features and options."
+msgstr ""
+
+#: inc/welcome/welcome.php:140
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/welcome/welcome.php:149
 msgid "Leave a Review"
 msgstr ""
 
-#: inc/welcome/welcome.php:139
+#: inc/welcome/welcome.php:151
 #. translators: %s: theme name.
 msgid "Are you enjoying %s? We would appreciate a review."
 msgstr ""
 
-#: inc/welcome/welcome.php:140
+#: inc/welcome/welcome.php:152
 msgid "Submit Review"
+msgstr ""
+
+#: inc/welcome/welcome.php:161
+msgid "Our Themes"
 msgstr ""
 
 #: search.php:21
@@ -408,12 +420,12 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Hello Blog is a feminine WordPress blog theme for bloggers, coaches, "
-"individuals and creative writers. This Google Core Web Vitals optimized "
-"WordPress blog theme is perfect for those users who focus on the speed of "
-"their website. Hello Blog comes with easy to use inbuilt customizer, "
-"full-width banner, featured posts, social share and lots of other features "
-"needed for a perfect blog."
+"Hello Blog is a speed optimized WordPress blog theme for creative writers, "
+"bloggers, motivational speakers, individuals, coaches, and all type of "
+"blogs. It is a Google Core Web Vitals optimized WordPress theme perfect for "
+"users who focus on the speed of their website. Hello Blog comes with easy "
+"to use inbuilt customizer, featured posts, author box, social share and "
+"tons of useful features needed for a perfect blog."
 msgstr ""
 
 #. Author of the plugin/theme

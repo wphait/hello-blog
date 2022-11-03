@@ -134,12 +134,32 @@ add_action(
 function hello_blog_render_welcome_page_sidebar( $object ) {
 	$object->render_sidebar_box(
 		array(
+			'title'        => esc_html__( 'Upgrade to Pro', 'hello-blog' ),
+			'content'      => esc_html__( 'Upgrade to pro version for additional features and options.', 'hello-blog' ),
+			'class'        => 'gray',
+			'button_text'  => esc_html__( 'Upgrade Now', 'hello-blog' ),
+			'button_url'   => 'https://wphait.com/themes/hello-blog/',
+			'button_class' => 'button button-primary button-upgrade',
+		),
+		$object
+	);
+
+	$object->render_sidebar_box(
+		array(
 			'title'        => esc_html__( 'Leave a Review', 'hello-blog' ),
 			/* translators: %s: theme name. */
 			'content'      => $object->get_stars() . sprintf( esc_html__( 'Are you enjoying %s? We would appreciate a review.', 'hello-blog' ), $object->get_name() ),
 			'button_text'  => esc_html__( 'Submit Review', 'hello-blog' ),
 			'button_url'   => 'https://wordpress.org/support/theme/hello-blog/reviews/#new-post',
 			'button_class' => 'button',
+		),
+		$object
+	);
+
+	$object->render_sidebar_box(
+		array(
+			'title'   => esc_html__( 'Our Themes', 'hello-blog' ),
+			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
 		),
 		$object
 	);
