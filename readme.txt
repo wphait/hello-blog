@@ -6,7 +6,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 Requires at least: 4.9
 Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,17 +33,40 @@ Hello Blog includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
+= 1.0.1 - 3 Nov 2022 =
+* Update credits
+
 = 1.0.0 - 2 Nov 2022 =
 * Initial release
 
 == Credits ==
 
 - Underscores
-Source: Based on Underscores http://underscores.me/, (C) 2012-2022 Automattic, Inc.
+Source: Based on Underscores https://underscores.me/, (C) 2012-2022 Automattic, Inc.
 License: [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 
 - Normalize
-Source: normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2022 Nicolas Gallagher and Jonathan Neal
+Source: normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2022 Nicolas Gallagher and Jonathan Neal
+License: [MIT](http://opensource.org/licenses/MIT)
+
+- Webfonts Loader
+Source: https://github.com/WPTT/webfont-loader/, (C) 2020 WPTT
+License: [MIT](http://opensource.org/licenses/MIT)
+
+- WP Admin Notice
+Source: https://github.com/ernilambar/wp-admin-notice/, (C) 2022 Nilambar Sharma
+License: [MIT](http://opensource.org/licenses/MIT)
+
+- WP Welcome
+Source: https://github.com/ernilambar/wp-welcome/, (C) 2022 Nilambar Sharma
+License: [MIT](http://opensource.org/licenses/MIT)
+
+- NS Customizer Utilities
+Source: https://github.com/ernilambar/ns-customizer-utilities/, (C) 2022 Nilambar Sharma
+License: [MIT](http://opensource.org/licenses/MIT)
+
+- WP Related Posts
+Source: https://github.com/ernilambar/wp-related-posts/, (C) 2022 Nilambar Sharma
 License: [MIT](http://opensource.org/licenses/MIT)
 
 == Screenshot Images ==
