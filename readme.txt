@@ -6,7 +6,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 Requires at least: 4.9
 Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ Hello Blog is distributed under the terms of the GNU GPL
 Hello Blog includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.0.2 - 25 Nov 2022 =
+* Minor bug fixes
 
 = 1.0.1 - 3 Nov 2022 =
 * Update credits

@@ -85,7 +85,139 @@ add_action(
 					),
 				),
 			),
-
+			'free-vs-pro' => array(
+				'title'          => esc_html__( 'Free Vs. Pro', 'hello-blog' ),
+				'type'           => 'comparison',
+				'upgrade_button' => array(
+					'url' => 'https://wphait.com/themes/hello-blog/',
+				),
+				'items'          => array(
+					array(
+						'title' => 'Show / Hide Site Title',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Show / Hide Site Tagline',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Logo Height Option',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Full Width Banner',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Featured Posts on Home Page',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title'       => 'Breadcrumb',
+						'description' => 'Rank Math or Yoast SEO',
+						'free'        => 'yes',
+						'pro'         => 'yes',
+					),
+					array(
+						'title'       => 'Post Meta Options',
+						'description' => 'Drag and drop and enable/disable',
+						'free'        => 'yes',
+						'pro'         => 'yes',
+					),
+					array(
+						'title' => 'Social Share',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Related Posts',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'WooCommerce Support',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Page Speed Optimized',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Search Engine Optimized',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title'       => 'Page Builder Compatibility',
+						'description' => 'Compatible with page builders like Elementor',
+						'free'        => 'yes',
+						'pro'         => 'yes',
+					),
+					array(
+						'title' => 'Google Core Web Vitals Optimized',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'No jQuery',
+						'free'  => 'yes',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Dark Skin',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Sticky Navigation',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Color and Typography',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Blog Layouts',
+						'free'  => '1',
+						'pro'   => '5',
+					),
+					array(
+						'title' => 'Sticky Sidebar',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title'       => 'Sidebar Options',
+						'description' => 'Left, Right and No Sidebar',
+						'free'        => 'no',
+						'pro'         => 'yes',
+					),
+					array(
+						'title' => 'Customize Powered By Text',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Author Box',
+						'free'  => 'no',
+						'pro'   => 'yes',
+					),
+					array(
+						'title' => 'Theme Support',
+						'free'  => 'Forum',
+						'pro'   => 'Dedicated / Forum',
+					),
+				),
+			),
 		);
 
 		// Pass welcome arguments through filter.
@@ -159,7 +291,7 @@ function hello_blog_render_welcome_page_sidebar( $object ) {
 	$object->render_sidebar_box(
 		array(
 			'title'   => esc_html__( 'Our Themes', 'hello-blog' ),
-			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
+			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hello-blog/" target="_blank">Hello Blog - Elegant WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
 		),
 		$object
 	);

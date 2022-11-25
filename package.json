@@ -1,6 +1,6 @@
 {
   "name": "hello-blog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "repository": {
     "type": "git",
@@ -21,17 +21,17 @@
     "repoType": "theme",
     "username": "wphait",
     "buildDir": "deploy/hello-blog",
-    "earlierVersion": "1.0.0"
+    "earlierVersion": "1.0.1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "bestzip": "^2.2.1",
-    "copy-files-from-to": "^3.2.2",
+    "copy-files-from-to": "^3.6.0",
     "cross-var": "^1.1.0",
     "easy-replace-in-files": "^1.0.3",
-    "node-wp-i18n": "^1.2.6",
+    "node-wp-i18n": "^1.2.7",
     "shx": "^0.3.4",
     "wp-deployer": "^1.0.3"
   }
