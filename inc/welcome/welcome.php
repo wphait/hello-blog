@@ -218,6 +218,42 @@ add_action(
 					),
 				),
 			),
+			'plugins' => array(
+				'title' => esc_html__( 'Recommended Plugins', 'hello-blog' ),
+				'type'  => 'plugin',
+				'items' => array(
+					array(
+						'name'        => esc_html__( 'WooCommerce Product Tabs', 'hello-blog' ),
+						'description' => esc_html__( 'Plugin to add new tabs for WooCommerce products.', 'hello-blog' ),
+						'slug'        => 'woocommerce-product-tabs',
+					),
+					array(
+						'name'        => esc_html__( 'Admin Customizer', 'hello-blog' ),
+						'description' => esc_html__( 'Customize admin interface of your WordPress site.', 'hello-blog' ),
+						'slug'        => 'admin-customizer',
+					),
+					array(
+						'name'        => esc_html__( 'Advanced Google reCAPTCHA', 'hello-blog' ),
+						'description' => esc_html__( 'Protect your WordPress website against spam comments and brute-force attacks using Google reCAPTCHA.', 'hello-blog' ),
+						'slug'        => 'advanced-google-recaptcha',
+					),
+					array(
+						'name'        => esc_html__( 'Coming Soon & Maintenance Mode Page', 'hello-blog' ),
+						'description' => esc_html__( 'Simple and easy to setup Coming soon, Under Construction and Maintenance page plugin.', 'hello-blog' ),
+						'slug'        => 'nifty-coming-soon-and-under-construction-page',
+					),
+					array(
+						'name'        => esc_html__( 'Post Grid Elementor Addon', 'hello-blog' ),
+						'description' => esc_html__( 'Elementor page builder addon to display posts in a grid.', 'hello-blog' ),
+						'slug'        => 'post-grid-elementor-addon',
+					),
+					array(
+						'name'        => esc_html__( 'Majestic Before After Image', 'hello-blog' ),
+						'description' => esc_html__( 'Elementor addon to show the comparison of two images with a draggable handle.', 'hello-blog' ),
+						'slug'        => 'majestic-before-after-image',
+					),
+				),
+			)
 		);
 
 		// Pass welcome arguments through filter.
@@ -291,7 +327,7 @@ function hello_blog_render_welcome_page_sidebar( $object ) {
 	$object->render_sidebar_box(
 		array(
 			'title'   => esc_html__( 'Our Themes', 'hello-blog' ),
-			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hello-blog/" target="_blank">Hello Blog - Elegant WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
+			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hello-blog/" target="_blank">Hello Blog - Elegant WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/blog-up/" target="_blank">Blog Up - Clean WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
 		),
 		$object
 	);
