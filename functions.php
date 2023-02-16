@@ -5,7 +5,7 @@
  * @package Hello_Blog
  */
 
-define( 'HELLO_BLOG_VERSION', '1.0.3' );
+define( 'HELLO_BLOG_VERSION', '1.0.4' );
 define( 'HELLO_BLOG_SLUG', 'hello-blog' );
 define( 'HELLO_BLOG_DIR', rtrim( get_template_directory(), '/' ) );
 define( 'HELLO_BLOG_URL', rtrim( get_template_directory_uri(), '/' ) );
