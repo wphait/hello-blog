@@ -4,24 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc69976c1a595a87da53645a93f160fb",
+    "content-hash": "be6422fae126bd5d0e91c77f47885c43",
     "packages": [
         {
             "name": "ernilambar/ns-customizer-utilities",
-            "version": "1.0.11",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ernilambar/ns-customizer-utilities.git",
-                "reference": "eb561f0b759e84b7f19752f828eaff0f6961c21f"
+                "reference": "a1438a4a7fc8f1bfe3cf74d5c84d5495b519184f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ernilambar/ns-customizer-utilities/zipball/eb561f0b759e84b7f19752f828eaff0f6961c21f",
-                "reference": "eb561f0b759e84b7f19752f828eaff0f6961c21f",
+                "url": "https://api.github.com/repos/ernilambar/ns-customizer-utilities/zipball/a1438a4a7fc8f1bfe3cf74d5c84d5495b519184f",
+                "reference": "a1438a4a7fc8f1bfe3cf74d5c84d5495b519184f",
                 "shasum": ""
             },
             "require": {
-                "kirki-framework/url-getter": "^1.0",
                 "php": ">=5.6"
             },
             "type": "library",
@@ -50,9 +49,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ernilambar/ns-customizer-utilities/issues",
-                "source": "https://github.com/ernilambar/ns-customizer-utilities/tree/1.0.11"
+                "source": "https://github.com/ernilambar/ns-customizer-utilities/tree/1.1.0"
             },
-            "time": "2022-09-23T07:16:05+00:00"
+            "time": "2023-04-05T11:40:06+00:00"
         },
         {
             "name": "ernilambar/wp-admin-notice",
@@ -150,16 +149,16 @@
         },
         {
             "name": "ernilambar/wp-welcome",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ernilambar/wp-welcome.git",
-                "reference": "f3cf2f82d2b5d4701d7c2b95417d2c2a1fdc061e"
+                "reference": "ff1371a36e335ac94ff9acc5285325ae1760da40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ernilambar/wp-welcome/zipball/f3cf2f82d2b5d4701d7c2b95417d2c2a1fdc061e",
-                "reference": "f3cf2f82d2b5d4701d7c2b95417d2c2a1fdc061e",
+                "url": "https://api.github.com/repos/ernilambar/wp-welcome/zipball/ff1371a36e335ac94ff9acc5285325ae1760da40",
+                "reference": "ff1371a36e335ac94ff9acc5285325ae1760da40",
                 "shasum": ""
             },
             "require": {
@@ -187,53 +186,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ernilambar/wp-welcome/issues",
-                "source": "https://github.com/ernilambar/wp-welcome/tree/1.0.4"
+                "source": "https://github.com/ernilambar/wp-welcome/tree/1.0.5"
             },
-            "time": "2023-02-13T07:42:14+00:00"
-        },
-        {
-            "name": "kirki-framework/url-getter",
-            "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kirki-framework/url-getter.git",
-                "reference": "cfe7ea5b51c5e9b5e7d706ed56694f54a972fae2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kirki-framework/url-getter/zipball/cfe7ea5b51c5e9b5e7d706ed56694f54a972fae2",
-                "reference": "cfe7ea5b51c5e9b5e7d706ed56694f54a972fae2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Kirki\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kirki Framework",
-                    "email": "connect@mapsteps.com"
-                }
-            ],
-            "description": "Helper component to get the URL of a file in WordPress.",
-            "homepage": "https://kirki.org/",
-            "keywords": [
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/kirki-framework/url-getter/issues",
-                "source": "https://github.com/kirki-framework/url-getter/tree/v1.0.5"
-            },
-            "time": "2021-12-29T16:27:31+00:00"
+            "time": "2023-03-17T10:08:36+00:00"
         },
         {
             "name": "wptt/webfont-loader",
@@ -533,16 +488,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619"
+                "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1359e176e9307e906dc3d890bcc9603ff6d90619",
-                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ed8e00df0a83aa96acf703f8c2979ff33341f879",
+                "reference": "ed8e00df0a83aa96acf703f8c2979ff33341f879",
                 "shasum": ""
             },
             "require": {
@@ -578,14 +533,15 @@
             "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
             "keywords": [
                 "phpcs",
-                "standards"
+                "standards",
+                "static analysis"
             ],
             "support": {
                 "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2022-06-18T07:21:10+00:00"
+            "time": "2023-02-22T23:07:41+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",

@@ -327,7 +327,13 @@ function hello_blog_render_welcome_page_sidebar( $object ) {
 	$object->render_sidebar_box(
 		array(
 			'title'   => esc_html__( 'Our Themes', 'hello-blog' ),
-			'content' => '<ol><li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li><li><a href="https://wphait.com/themes/hello-blog/" target="_blank">Hello Blog - Elegant WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/blog-up/" target="_blank">Blog Up - Clean WordPress Blog theme</a></li><li><a href="https://wphait.com/themes/hait/" target="_blank">Hait - Multipurpose WordPress Blog Theme</a></li></ol>',
+			'content' => '<ol>
+			<li><a href="https://wphait.com/themes/hello-blog/" target="_blank">Hello Blog - Elegant WordPress Blog theme</a></li>
+			<li><a href="https://wphait.com/themes/pure-blog/" target="_blank">Pure Blog - Stylish WordPress Blog theme</a></li>
+			<li><a href="https://wphait.com/themes/blog-up/" target="_blank">Blog Up - Clean WordPress Blog theme</a></li>
+			<li><a href="https://wphait.com/themes/nari/" target="_blank">Nari - Feminine WordPress Blog Theme</a></li>
+			<li><a href="https://wphait.com/themes/dhor/" target="_blank">Dhor - Minimal WordPress Blog Theme</a></li>
+			</ol>',
 		),
 		$object
 	);
